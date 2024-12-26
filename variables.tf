@@ -21,9 +21,17 @@ variable "vsphere_server" {
   sensitive = true
 }
 
-variable "vsphere_datacenter" {
+variable "horizon_vdi_compute_cluster" {
+  type = string
+}
+
+variable "horizon_vdi_datacenter" {
   type      = string
   sensitive = false
+}
+
+variable "horizon_vdi_resource_pool" {
+  type = string
 }
 
 variable "horizon_vdi_folder" {
