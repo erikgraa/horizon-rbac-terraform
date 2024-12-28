@@ -1,0 +1,8 @@
+horizon_serviceaccount_instant_clone = "dev.graa\\horizonInstaSvc"
+horizon_vdi_compute_cluster = "VDI"
+horizon_vdi_datacenter = "Datacenter"
+horizon_vdi_datastore = "datastore1"
+horizon_vdi_folder = "/Datacenter/vm/VDI"
+horizon_vdi_network = "VDI"
+horizon_vdi_resource_pool = "vdi"
+vsphere_server = "vcsa.dev.graa"
